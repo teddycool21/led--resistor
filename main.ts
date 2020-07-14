@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index < 4; index++) {
+    while (true) {
         pins.digitalWritePin(DigitalPin.P0, 1)
         basic.pause(1000)
         pins.digitalWritePin(DigitalPin.P0, 0)
